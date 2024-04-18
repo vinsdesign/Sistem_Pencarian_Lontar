@@ -902,6 +902,10 @@ video {
   width: weird-and-invalid;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -2059,12 +2063,12 @@ video {
   vertical-align: super;
 }
 
-.font-montserrat {
-  font-family: Montserrat-Regular, sans-serif;
-}
-
 .font-montsMedium {
   font-family: Montserrat-Medium, sans-serif;
+}
+
+.font-montserrat {
+  font-family: Montserrat-Regular, sans-serif;
 }
 
 .text-3xl {
@@ -2682,6 +2686,24 @@ video {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+
+  .xxsm\:opacity-100 {
+    opacity: 1;
+  }
+
+  .xxsm\:transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .xxsm\:duration-500 {
+    transition-duration: 500ms;
+  }
+
+  .xxsm\:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  }
 }
 
 @media (min-width: 370px) {
@@ -2756,6 +2778,24 @@ video {
   .xsm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .xsm\:opacity-100 {
+    opacity: 1;
+  }
+
+  .xsm\:transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .xsm\:duration-500 {
+    transition-duration: 500ms;
+  }
+
+  .xsm\:ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
   }
 }
 
@@ -2860,6 +2900,10 @@ video {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-40 {
+    width: 10rem;
   }
 
   .md\:flex-col {

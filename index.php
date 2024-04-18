@@ -18,7 +18,7 @@
         <img class="xxsm:w-24 xsm:w-28 md:w-36" src="./public/assets/Logo.svg" height="70px" alt="logo-lontar" />
       </a>
       <!-- mobile navigation icons -->
-      <i class="text-white text-3xl lg:hidden cursor-pointer fa-solid fa-bars" id="humburgerMenu" onclick="menubar">
+      <i class="text-white text-3xl xxsm:hidden xsm:hidden sm:hidden md:hidden lg:hidden cursor-pointer fa-solid fa-bars" id="humburgerMenu" onclick="menubar">
       </i>
       <i class="fa-solid fa-xmark text-white text-3xl xxsm:hidden xsm:hidden sm:hidden md:hidden lg:hidden cursor-pointer" name="close" id="closeHumburgerMenu" onclick="close"></i>
     </div>
@@ -40,6 +40,8 @@
   </nav>
   <!-- end navbar -->
 
+
+  <script src="js/navbar.js"></script>
 </body>
 
 </html>
