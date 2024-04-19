@@ -38,18 +38,18 @@
     <!-- carousel image -->
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
-      <div class="relative xxsm:h-56 base:h-60 sm:h-72 md:h-80 lg:h-96 overflow-hidden xl:h-[700px]">
+      <div class="relative xxsm:h-56 base:h-60 sm:h-72 md:h-[25rem] lg:h-96 overflow-hidden xl:h-[30rem] 2xl:h-[35rem]">
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./public/assets/bg-header(1).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[800px] md:h-[900px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header1" />
+          <img src="./public/assets/bg-header(1).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[300px] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[800px]" alt="bg-header1" />
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./public/assets/bg-header(2).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[800px] md:h-[900px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header2" />
+          <img src="./public/assets/bg-header(2).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[300px] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[800px]" alt="bg-header2" />
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="./public/assets/bg-header(3).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[800px] md:h-[900px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header3" />
+          <img src="./public/assets/bg-header(3).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[300px] md:h-[500px] lg:h-[500px] xl:h-[600px] 2xl:h-[800px]" alt="bg-header3" />
         </div>
       </div>
       <!-- Slider indicators -->
@@ -90,7 +90,7 @@
       </p>
       <div class="flex xxsm:flex-col xsm:flex-col xxsm:gap-3 xsm:gap-5 sm:flex-col sm:gap-5 md:flex-col lg:flex-row justify-center items-center mt-5 md:gap-5 gap-16">
         <a href="#">
-          <section class="bg-darkBlue text-center p-4 xxsm:w-[280px] xsm:w-[450px] sm:w-[500px] md:w-[500px] lg:w-[300px] xl:w-[350px] text-white hover:text-orangePastel flex flex-col items-center">
+          <section class="bg-darkBlue text-center p-4 xxsm:w-[280px] xsm:w-[450px] sm:w-[500px] md:w-[500px] lg:w-[300px] xl:w-[350px] 2xl:w-[380px] text-white hover:text-orangePastel flex flex-col items-center">
             <i class="fa-solid fa-database text-[150px]"></i>
             <p class="text-white text-lg hover:text-orangePastel py-1 duration-500">
               <span class="font-montsBold">35</span> Data Lontar Terdigitalisasi
@@ -98,7 +98,7 @@
           </section>
         </a>
         <a href="#">
-          <section class="bg-darkBlue text-center p-4 xxsm:w-[280px] xsm:w-[450px] sm:w-[500px] md:w-[500px] lg:w-[300px] xl:w-[350px] text-white hover:text-orangePastel flex flex-col items-center">
+          <section class="bg-darkBlue text-center p-4 xxsm:w-[280px] xsm:w-[450px] sm:w-[500px] md:w-[500px] lg:w-[300px] xl:w-[350px] 2xl:w-[380px] text-white hover:text-orangePastel flex flex-col items-center">
             <i class="fa-solid fa-book text-[150px]"></i>
             <p class="text-white text-lg hover:text-orangePastel py-1 duration-500">
               <span class="font-montsBold">7</span> Data Lontar Terklasifikasi
@@ -106,7 +106,7 @@
           </section>
         </a>
         <a href="#">
-          <section class="bg-darkBlue text-center p-4 xxsm:w-[280px] xsm:w-[450px] sm:w-[500px] md:w-[500px] lg:w-[300px] xl:w-[350px] text-white hover:text-orangePastel flex flex-col items-center">
+          <section class="bg-darkBlue text-center p-4 xxsm:w-[280px] xsm:w-[450px] sm:w-[500px] md:w-[500px] lg:w-[300px] xl:w-[350px] 2xl:w-[380px]  text-white hover:text-orangePastel flex flex-col items-center">
             <i class="fa-solid fa-bookmark text-[150px]"></i>
             <p class="text-white text-lg hover:text-orangePastel py-1 duration-500">
               <span class="font-montsBold">35</span> Data Lontar Tersimpan
