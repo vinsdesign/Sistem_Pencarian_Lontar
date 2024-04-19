@@ -14,8 +14,8 @@
   <!-- navbar -->
   <nav class="bg-darkBlue flex justify-between items-center px-7 py-5">
     <!-- logo -->
-    <div class="">
-      <img class="h-8 w-auto" src="./public/assets/Logo.svg" alt="logo">
+    <div class="flex items-center">
+      <img class="h-9 w-auto" src="./public/assets/Logo.svg" alt="logo">
     </div>
     <!-- menu navigation -->
     <div id="navigation" class="md:static md:min-h-fit absolute md:w-auto z-50 bg-darkBlue min-h-[20vh] left-0 top-[-100%] w-full flex items-center pl-6">
@@ -38,18 +38,18 @@
   <!-- carousel image -->
   <div id="default-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative xxsm:h-56 base:h-60 overflow-hidden xl:h-[700px]">
+    <div class="relative xxsm:h-56 base:h-60 sm:h-72 md:h-80 lg:h-96 overflow-hidden xl:h-[700px]">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="./public/assets/bg-header(1).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[360px] md:h-[380px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header1" />
+        <img src="./public/assets/bg-header(1).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[800px] md:h-[900px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header1" />
       </div>
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="./public/assets/bg-header(2).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[360px] md:h-[380px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header2" />
+        <img src="./public/assets/bg-header(2).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[800px] md:h-[900px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header2" />
       </div>
       <!-- Item 3 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="./public/assets/bg-header(3).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[360px] md:h-[380px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header3" />
+        <img src="./public/assets/bg-header(3).jpg" class="absolute block w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2 bg-cover xxsm:h-[210px] xsm:h-[240px] base:h-[290px] sm:h-[800px] md:h-[900px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]" alt="bg-header3" />
       </div>
     </div>
     <!-- Slider indicators -->
