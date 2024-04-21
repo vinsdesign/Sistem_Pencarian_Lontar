@@ -6,7 +6,7 @@
             <path d="M109.5 62.5H205.5" stroke="#F9B17A" stroke-width="3" />
         </svg>
     </a>
-    <div class="flex justify-between flex-wrap lg:justify-between lg:gap-5 xl:justify-between 2xl:flex 2xl:justify-between gap-3">
+    <div class="flex justify-between flex-wrap xxsm:text-base lg:justify-between lg:gap-5 xl:justify-between 2xl:flex 2xl:justify-between gap-3">
         <section class="">
             <h1 class="xxsm:text-lg lg:text-xl font-bold hover:text-orangePastel duration-500">
                 Naskah Lontar

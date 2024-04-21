@@ -12,7 +12,7 @@
         <ul class="text-white font-montsMedium flex md:flex-row flex-col md:items-center md:py-0 md:gap-10 gap-6 py-3">
             <li><a class="hover:text-orangePastel" href="/">Beranda</a></li>
             <li><a class="hover:text-orangePastel" href="/sejarahlontar">Sejarah Lontar</a></li>
-            <li><a class="hover:text-orangePastel" href="#">Koleksi Lontar</a></li>
+            <li><a class="hover:text-orangePastel" href="/KoleksiLontar">Koleksi Lontar</a></li>
             <li><a class="hover:text-orangePastel" href="#">Tentang Kami</a></li>
         </ul>
     </div>
