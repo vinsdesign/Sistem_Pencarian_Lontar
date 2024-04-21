@@ -1,6 +1,6 @@
-/*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
-*/
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -916,7 +916,7 @@ input:checked + .toggle-bg {
 
   font-style: normal;
 
-  src: url(../public/fonts/Montserrat-Bold.woff) format("woff");
+  src: url("../public/fonts/Montserrat-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -926,7 +926,7 @@ input:checked + .toggle-bg {
 
   font-style: normal;
 
-  src: url(../public/fonts/Montserrat-SemiBold.woff) format("woff");
+  src: url("../public/fonts/Montserrat-SemiBold.woff") format("woff");
 }
 
 @font-face {
@@ -936,7 +936,7 @@ input:checked + .toggle-bg {
 
   font-style: normal;
 
-  src: url(../public/fonts/Montserrat-Medium.woff) format("woff");
+  src: url("../public/fonts/Montserrat-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -946,7 +946,7 @@ input:checked + .toggle-bg {
 
   font-style: normal;
 
-  src: url(../public/fonts/Montserrat-Regular.woff) format("woff");
+  src: url("../public/fonts/Montserrat-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -956,7 +956,7 @@ input:checked + .toggle-bg {
 
   font-style: Italic;
 
-  src: url(../public/fonts/Montserrat-Italic.woff) format("woff");
+  src: url("../public/fonts/Montserrat-Italic.woff") format("woff");
 }
 
 *, ::before, ::after {

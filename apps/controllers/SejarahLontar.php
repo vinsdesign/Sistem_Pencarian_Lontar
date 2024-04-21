@@ -1,6 +1,6 @@
 <?php
 
-class Home extends Controller
+class SejarahLontar extends Controller
 {
     public function index()
     {
@@ -8,7 +8,6 @@ class Home extends Controller
         $this->view('components/user/Navbar');
         $this->view('components/user/SearchComponent');
         $this->view('components/user/CarouselImage');
-        $this->view('components/user/InformasiDataLontar');
         $this->view('components/user/SejarahComponent');
         $this->view('components/user/FooterComponent');
         $this->view('templates/user/Footer');
