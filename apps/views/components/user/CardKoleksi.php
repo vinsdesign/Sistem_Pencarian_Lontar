@@ -10,14 +10,12 @@
             <p class="font-montserrat text-justify xl:text-md">
                 Detail Deskripsi Lengkap Lontar, judul lontar : Bhasma, tipe bahan:
                 Daun Ronta, subjek: Mantra, klasifikasi: Weda,
-                bahasa: Bahasa Kawi, <a href="#" class="text-orangePastel">Selengkapnya</a>
+                bahasa: Bahasa Kawi, <a href="/detailLontar" class="text-orangePastel">Selengkapnya</a>
             </p>
 
         </div>
         <figure class="xxsm:order-1 md:order-none object-cover">
             <img class="bg-cover xxsm:max-w-full lg:max-w-full md:w-[800px] md:h-[200px] lg:h-full  xxsm:rounded-t-lg md:rounded-t-none md:rounded-tr-lg md:rounded-br-lg lg:rounded-r-lg" src="../../../../public/assets/Tulis_Lontar.jpg" alt="image">
         </figure>
-
-
     </div>
 </div>
