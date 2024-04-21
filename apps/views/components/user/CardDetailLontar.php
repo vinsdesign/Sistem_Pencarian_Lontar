@@ -1,10 +1,10 @@
 <main class="flex flex-col">
     <div class="flex justify-start items-center w-[1200px] mx-auto">
-        <button class="mt-4 hover:text-orangePastel hover:transition-all hover:delay-150"></button>
+        <a href="/KoleksiLontar"><button class="mt-4 px-5 py-2 text-white rounded-full bg-lightBlue hover:transition-all hover:delay-150"><i class="fa-solid fa-angle-left"></i> Kembali</button></a>
     </div>
 
-    <section class="flex justify-center items-center flex-col mt-4">
-        <div class="card w-[1200px] bg-base-100 bg-cover shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+    <section class="flex justify-center items-center  flex-col mt-4">
+        <div class="w-[1200px] bg-base-100 bg-cover rounded-2xl pb-4 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
             <figure>
                 <img class="w-[1200px] h-[600px] xxsm:rounded-t-2xl" src="../../../../public/assets/Tulis_Lontar.jpg" alt="Lontar" />
             </figure>
