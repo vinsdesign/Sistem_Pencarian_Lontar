@@ -28,7 +28,7 @@ export default {
       lightBlue: "#676F9D",
       orangePastel: "#F9B17A",
       darkSecondary: "#9A9A9A",
-      lightSecondary: "#D9D9D9",
+      lightSecondary: "#E7E7E7",
       white: "#ffffff",
       black: "#000000",
     },
