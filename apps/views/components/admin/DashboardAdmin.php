@@ -24,7 +24,7 @@
             <!-- data koleksi -->
             <div class="col-span-2 bg-lightSecondary h-80 rounded-2xl flex justify-center gap-3 items-center flex-col">
                 <div class="text-center">
-                    <h1 class="font-montsBold py-4 text-2xl">Koleksi Data Lontar</h1>
+                    <h1 class="font-montsBold text-2xl">Koleksi Data Lontar</h1>
                 </div>
                 <div class="flex flex-col gap-3">
                     <div class="flex items-center justify-between gap-3 rounded-full w-[500px] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] px-10 bg-white py-3">
