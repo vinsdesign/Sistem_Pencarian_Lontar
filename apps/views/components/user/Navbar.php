@@ -13,7 +13,7 @@
             <li><a class="hover:text-orangePastel" href="/">Beranda</a></li>
             <li><a class="hover:text-orangePastel" href="/sejarahlontar">Sejarah Lontar</a></li>
             <li><a class="hover:text-orangePastel" href="/KoleksiLontar">Koleksi Lontar</a></li>
-            <li><a class="hover:text-orangePastel" href="#">Tentang Kami</a></li>
+            <li><a class="hover:text-orangePastel" href="/TentangKami">Tentang Kami</a></li>
         </ul>
     </div>
     <div id="add" class="md:hidden">
