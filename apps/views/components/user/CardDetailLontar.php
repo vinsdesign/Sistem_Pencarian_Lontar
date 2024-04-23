@@ -23,7 +23,7 @@
                             </th>
                             <td class="w-5 ">
                                 :
-                            </td>
+                            </td>n
                             <td class="px-0 py-4">
                                 Bhasma
                             </td>
@@ -147,6 +147,28 @@
                             </td>
                             <td class="px-0 py-4">
                                 Jalan Veteran No 20, Singaraja
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-200 bg-lightSecondary">
+                            <th scope="row" class="pl-5 w-36 font-montsMedium">
+                                Asal
+                            </th>
+                            <td class="w-5 ">
+                                :
+                            </td>
+                            <td class="px-0 py-4">
+                                Belah Batuh, Gianyar
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-200 bg-lightSecondary">
+                            <th scope="row" class="pl-5 w-36 font-montsMedium">
+                                Asal
+                            </th>
+                            <td class="w-5 ">
+                                :
+                            </td>
+                            <td class="px-0 py-4">
+                                Belah Batuh, Gianyar
                             </td>
                         </tr>
                         <tr class="border-b border-gray-200 bg-lightSecondary">
