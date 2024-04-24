@@ -63,14 +63,14 @@
         <ul class="space-y-2 font-medium" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
             <!-- dashboard -->
             <li role="presentation">
-                <a href="/DashboardAdmin" class="flex items-center p-2 text-gray-900 hover:text-mediumBlue rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">
+                <a href="/DashboardAdmin" class="flex items-center p-2 text-gray-900 hover:text-mediumBlue rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <i class="flex-shrink-0 w-5 h-5 text-orangePastel transition duration-75 dark:text-gray-400 group-hover:text-mediumBlue dark:group-hover:text-white fa-solid fa-home"></i>
                     <span class="ms-3 text-white font-montsMedium group-hover:text-mediumBlue ">Dashboard</span>
                 </a>
             </li>
             <!-- data lontar -->
             <li role="presentation">
-                <a href="/DataLontar" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group" id="lontar-tab" data-tabs-target="#lontar" type="button" role="tab" aria-controls="lontar" aria-selected="false">
+                <a href="/DataLontar" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <i class="flex-shrink-0 w-5 h-5 text-orangePastel transition duration-75 dark:text-gray-400 group-hover:text-mediumBlue dark:group-hover:text-white fa-solid fa-book"></i>
                     <span class="ms-3 text-lightSecondary font-montsMedium group-hover:text-mediumBlue ">Data Lontar</span>
                 </a>
@@ -86,7 +86,7 @@
         <ul class="space-y-2 font-medium" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
             <!-- dashboard -->
             <li role="presentation">
-                <a href="#" class="flex items-center p-2 text-gray-900 hover:text-mediumBlue rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">
+                <a href="#" class="flex items-center p-2 text-gray-900 hover:text-mediumBlue rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <i class="flex-shrink-0 w-5 h-5 text-orangePastel transition duration-75 dark:text-gray-400 group-hover:text-mediumBlue dark:group-hover:text-white fa-solid fa-sign-out"></i>
                     <span class="ms-3 text-white font-montsMedium group-hover:text-mediumBlue ">Sign Out</span>
                 </a>
