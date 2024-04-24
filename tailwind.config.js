@@ -30,6 +30,9 @@ export default {
       darkSecondary: "#9A9A9A",
       lightSecondary: "#E7E7E7",
       white: "#ffffff",
+      danger: "#E02424",
+      warning: "#FACA15",
+      success: "#057A55",
       black: "#000000",
     },
     extend: {
