@@ -79,7 +79,7 @@
             <li role="presentation">
                 <a href="/DataUser" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                     <i class="flex-shrink-0 w-5 h-5 text-orangePastel transition duration-75 dark:text-gray-400 group-hover:text-mediumBlue dark:group-hover:text-white fa-solid fa-users"></i>
-                    <span class="ms-3 text-lightSecondary font-montsMedium group-hover:text-mediumBlue ">Data Users</span>
+                    <span class="ms-3 text-lightSecondary font-montsMedium group-hover:text-mediumBlue ">Data Admin</span>
                 </a>
             </li>
         </ul>
