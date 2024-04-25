@@ -56,7 +56,7 @@
                             <div class="flex gap-2 text-lg text-darkBlue items-center">
                                 <button type="button" class="hover:text-danger"><i class="fa-solid fa-trash"></i> </button> |
                                 <button type="button" class="hover:text-orangePastel"><i class="fa-solid fa-pen-to-square"></i> </button> |
-                                <button type="button" class="hover:text-success"><i class="fa-solid fa-circle-info"></i> </button>
+                                <a href="/DataLontar/detail"><button type="button" class="hover:text-success"><i class="fa-solid fa-circle-info"></i> </button> </a>
                             </div>
                         </td>
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
