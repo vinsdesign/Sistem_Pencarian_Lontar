@@ -11,8 +11,14 @@ if (isset($_POST["login"])) {
 
         // check password
         $row = mysqli_fetch_assoc($result);
-        header("location: /DashboardAdmin");
-        exit;
+        if ($password === $row["password"]) {
+            // Password cocok, redirect ke halaman DashboardAdmin
+            header("location: /DashboardAdmin");
+            exit;
+        } else {
+            // Password tidak cocok, set pesan error
+            $error = true;
+        }
     }
     $error = true;
 }
