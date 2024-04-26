@@ -3,7 +3,7 @@ export default {
   content: ["./**/*.{html,js,php}", "./node_modules/flowbite/**/*.js"],
   theme: {
     backgroundImage: {
-      bgLogin: "url('./public/assets/bg_login.jpg')",
+      login: "url('./public/assets/bg_login.jpg')",
     },
     screens: {
       xxsm: "320px",
