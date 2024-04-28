@@ -14,6 +14,7 @@ if (isset($_POST["login"])) {
         if ($password === $row["password"]) {
             // Password cocok, redirect ke halaman DashboardAdmin
             header("location: /DashboardAdmin");
+            $success = true;
             exit;
         } else {
             // Password tidak cocok, set pesan error
@@ -21,4 +22,5 @@ if (isset($_POST["login"])) {
         }
     }
     $error = true;
+    $success = true;
 }
