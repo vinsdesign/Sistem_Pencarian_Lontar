@@ -1,12 +1,25 @@
 <?php
 session_start();
+require './apps/config/config.php';
 
+if (isset($_COOKIE['key'])) {
+    $key = $_COOKIE['key'];
+
+    // ambil key -> username berdasarkan username didatabase
+    $result = mysqli_query($koneksi, "SELECT username FROM admin WHERE username = '$key'");
+    $row = mysqli_fetch_assoc($result);
+    // cek username
+    if ($key === hash('sha224', $row['username'])) {
+        $_SESSION['login'] = true;
+    }
+}
+
+// cek session jika sudah ada session langsung arahin ke   --
 if (isset($_SESSION['login'])) {
     header("Location:/DashboardAdmin");
     exit;
 }
 
-require './apps/config/config.php';
 if (isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
@@ -19,8 +32,15 @@ if (isset($_POST["login"])) {
         // check password
         $row = mysqli_fetch_assoc($result);
         if ($password === $row["password"]) {
+
             // set session
             $_SESSION["login"] = true;
+
+            // set remember me
+            if (isset($_POST['remember'])) {
+                // set_cookie
+                setcookie('key', hash('sha224', $row['username']), time() + 240);
+            }
             // Password cocok, redirect ke halaman DashboardAdmin
             header("location: /DashboardAdmin");
             $success = true;

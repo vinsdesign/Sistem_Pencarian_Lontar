@@ -1647,12 +1647,12 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
-.h-\[280px\] {
-  height: 280px;
-}
-
 .h-\[350px\] {
   height: 350px;
+}
+
+.h-\[380px\] {
+  height: 380px;
 }
 
 .h-\[600px\] {
@@ -1673,10 +1673,6 @@ input:checked + .toggle-bg {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[380px\] {
-  height: 380px;
 }
 
 .max-h-full {
@@ -3134,6 +3130,11 @@ input:checked + .toggle-bg {
   background-color: rgb(224 36 36 / var(--tw-bg-opacity));
 }
 
+.bg-success {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 122 85 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -3149,12 +3150,6 @@ input:checked + .toggle-bg {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
-}
-
-
-.bg-success {
-  --tw-bg-opacity: 1;
-  background-color: rgb(5 122 85 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/public\/assets\/bg_login\.jpg\'\)\] {
