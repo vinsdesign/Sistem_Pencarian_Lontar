@@ -6,7 +6,7 @@
             <h1 class="font-montsBold text-4xl text-mediumBlue leading-[2.8rem]">Mesin Pencari Pintar Lontar<span class="text-orangePastel">.</span></h1>
         </div>
         <div class="flex justify-between items-center mt-5">
-            <section class="bg-white rounded-lg w-80 h-24 flex items-center justify-evenly p-6 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+            <section class="bg-white rounded-lg w-[22rem] h-24 flex items-center justify-evenly p-6 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
                 <div class="bg-darkBlue w-16 h-16 rounded-full relative">
                     <div class="absolute mt-2 ml-1.5">
                         <svg width="50" height="50" viewBox="0 0 309 110" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -26,7 +26,7 @@
                     </p>
                 </div>
             </section>
-            <section class="bg-white rounded-lg w-80 text-sm h-24 flex items-center justify-center gap-6 p-5 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+            <section class="bg-white rounded-lg w-[22rem] text-sm h-24 flex items-center justify-center gap-6 p-5 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
                 <div class="w-28 h-24 rounded-full flex items-center">
                     <img src="../../../../public/assets/mypicture.svg" alt="mypicture">
                 </div>
@@ -36,18 +36,46 @@
                     </p>
                 </div>
             </section>
-            <section class="bg-white rounded-lg w-80 h-24 flex items-center justify-evenly p-6 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
+            <section class="bg-white rounded-lg w-[22rem] h-24 flex items-center justify-evenly p-6 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
                 <div class="bg-darkBlue w-14 h-14 rounded-full relative">
                     <div class="absolute top-1/4 left-4">
                         <i class="fa-solid fa-user-tie text-white text-3xl"></i>
                     </div>
                 </div>
                 <div class="flex flex-col text-sm">
-                    <h1 class="font-montsBold">Partner Kami</h1>
+                    <h1 class="font-montsBold">Admin</h1>
                     <p class="font-montsMedium">Informasi selengkapnya <br> <a class="text-[#293A9E]" href="/Login">dashboard_admin</a>
                     </p>
                 </div>
             </section>
         </div>
     </div>
+</div>
+
+<div class="w-[1100px] mx-auto py-10">
+    <div class="flex justify-between">
+        <section class="flex justify-center gap-10 items-center">
+            <div class="flex flex-col w-[400px]">
+                <h1 class="font-montsBold text-darkBlue text-2xl">Sumber Data<span class="text-orangePastel">.</span></h1>
+                <p class="font-montsMedium text-justify">Sumber Data Lontar yang terdapat pada website Lontar Bali berasal dari Museum Lontar Gedong Kirtya. Pada Museum Gedong Kirtya terdapat ribuan lontar, beberapa prasasti dan ribuan buku yang berhubungan dengan beberapa aspek kehidupan manusia yang dirawat dan dijaga dengan sangat baik. <a href="/SejarahLontar">Selengkapnya</a></p>
+            </div>
+            <div class="flex flex-col justify-center gap-4">
+                <div class="flex gap-4">
+                    <img class="w-80" src="../../../../public/assets/img-tentangkami(1).jpg" alt="img-tentangkami(1)">
+                    <img class="w-80" src="../../../../public/assets/img-tentangkami(2).jpg" alt="img-tentangkami(2)">
+                </div>
+                <div class="">
+                    <img class="w-[655px]" src="../../../../public/assets/img-tentangkami(3).jpg" alt="img-tentangkami(3)">
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div data-tooltip-target="tooltip-default" data-tooltip-placement="top" class="overflow-hidden h-[380px] w-full bg-white">
+    <div id="tooltip-default" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        Lokasi Gedong Kirtya
+        <div class="tooltip-arrow" data-popper-arrow></div>
+    </div>
+    <iframe class="h-[380px] rounded-lg border-solid border-2 border-primary text-center p-4 xxsm:w-[250px] xsm:w-[290px] sm:w-[380px] md:w-[600px] lg:w-[700px] lg:h-[800px] xl:w-[900px] 2xl:w-full cursor-pointer" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.86062462500414!2d115.09618568847965!3d-8.124884578298582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd19082db52408f%3A0x32c58443e0833f36!2sGedong%20Kirtya!5e0!3m2!1sen!2sid!4v1714303284416!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
