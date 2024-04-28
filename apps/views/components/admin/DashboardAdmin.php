@@ -1,7 +1,10 @@
 <?php
-require './apps/controllers/LoginController.php'
-?>
+if (!isset($_SESSION['login'])) {
+    header("location : /Login");
+    exit;
+}
 
+?>
 <div class="p-4 md:ml-64">
     <div class="flex justify-center items-center">
         <?php if (isset($success)) : ?>

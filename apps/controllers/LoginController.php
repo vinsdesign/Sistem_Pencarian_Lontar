@@ -1,4 +1,11 @@
 <?php
+session_start();
+
+if (isset($_SESSION['login'])) {
+    header("Location:/DashboardAdmin");
+    exit;
+}
+
 require './apps/config/config.php';
 if (isset($_POST["login"])) {
     $username = $_POST["username"];
@@ -12,6 +19,8 @@ if (isset($_POST["login"])) {
         // check password
         $row = mysqli_fetch_assoc($result);
         if ($password === $row["password"]) {
+            // set session
+            $_SESSION["login"] = true;
             // Password cocok, redirect ke halaman DashboardAdmin
             header("location: /DashboardAdmin");
             $success = true;
