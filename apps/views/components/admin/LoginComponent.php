@@ -1,22 +1,4 @@
-<?php
-require './apps/config/config.php';
-if (isset($_POST["login"])) {
-    $username = $_POST["username"];
-    $password = $_POST["password"];
-
-
-    $result = mysqli_query($koneksi, "SELECT * FROM admin WHERE username = '$username'");
-    // cek username
-    if (mysqli_num_rows($result) === 1) { //mysqli_num_rows => ada berapa baris yang dikembalikan
-
-        // check password
-        $row = mysqli_fetch_assoc($result);
-        header("location: /DashboardAdmin");
-        exit;
-    }
-    $error = true;
-}
-?>
+<?php require "./apps/controllers/LoginController.php"; ?>
 <section class="bg-[url('../public/assets/bg_login.jpg')] w-full h-[100vh]">
     <div class="flex justify-center items-center">
         <?php if (isset($error)) : ?>
