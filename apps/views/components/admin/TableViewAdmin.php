@@ -1,9 +1,26 @@
 <?php
+require './apps/config/config.php';
+
 if (!isset($_SESSION['login'])) {
     header("location : /Login");
     exit;
 }
+$result = mysqli_query($koneksi, "SELECT * FROM admin");
+// ambil data admin
+// while ($admin = mysqli_fetch_object($result)) {
+//     var_dump($admin);
+// }
 
+
+// cek Tombol Tambah Data
+if (isset($_POST['TambahData'])) {
+    $nama = $_POST['nama'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $gambar = $_POST['image_upload'];
+
+    $result = mysqli_query($koneksi, "INSERT INTO admin VALUES ('', '$nama', '$username', '$password', '$gambar')");
+}
 ?>
 <div class="p-4 md:ml-64">
     <div class="p-4 border-2 border-gray-200 border-dashed rounded-2xl dark:border-gray-700 mt-16">
@@ -48,25 +65,30 @@ if (!isset($_SESSION['login'])) {
                     </tr>
                 </thead>
                 <tbody class="font-montsMedium text-mediumBlue">
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600">
-                        <td class="w-4 px-5 py-3">
-                            <div class="flex gap-2 text-lg text-darkBlue items-center">
-                                <button data-modal-target="popup-modal" data-modal-toggle="popup-modal" type="button" class="hover:text-danger"><i class="fa-solid fa-trash"></i> </button> |
-                                <button data-modal-target="static-modal-edit" data-modal-toggle="static-modal-edit" type="button" class="hover:text-orangePastel"><i class="fa-solid fa-pen-to-square"></i> </button> |
-                                <a href="/DataAdmin/detail"><button type="button" class="hover:text-success"><i class="fa-solid fa-circle-info"></i> </button> </a>
-                            </div>
-                        </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            1
-                        </th>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            I Wayan Kelvin Widana Saputra
-                        </th>
-                        <td class="px-6 py-4">Admin</td>
-                        <td class="px-6 py-4">123Admin</td>
-                        <td class="px-6 py-4 flex items-center justify-center"><img src="../../../../public/assets/mypicture.svg" class="w-8 " alt="mypicture" />
-                        </td>
-                    </tr>
+                    <?php $i = 1; ?>
+                    <?php while ($row = mysqli_fetch_assoc($result)) : ?>
+                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600">
+                            <td class="w-4 px-5 py-3">
+                                <div class="flex gap-2 text-lg text-darkBlue items-center">
+                                    <button data-modal-target="popup-modal" data-modal-toggle="popup-modal" type="button" class="hover:text-danger"><i class="fa-solid fa-trash"></i> </button> |
+                                    <button data-modal-target="static-modal-edit" data-modal-toggle="static-modal-edit" type="button" class="hover:text-orangePastel"><i class="fa-solid fa-pen-to-square"></i> </button> |
+                                    <a href="/DataAdmin/detail"><button type="button" class="hover:text-success"><i class="fa-solid fa-circle-info"></i> </button> </a>
+                                </div>
+                            </td>
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                <?= $i; ?>
+                            </th>
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                <?= $row['nama'] ?>
+                            </th>
+                            <td class="px-6 py-4"><?= $row['username'] ?></td>
+                            <td class="px-6 py-4"><?= $row['password'] ?></td>
+                            <td class="px-6 py-4 flex items-center justify-center"><img src="../../../../public/assets/<?= $row['gambar']; ?>" class="w-8 " alt="mypicture" />
+                            </td>
+                        </tr>
+                        <?php $i++; ?>
+                    <?php endwhile; ?>
+                </tbody>
             </table>
         </div>
         <!-- pagination -->
